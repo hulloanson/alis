@@ -1627,7 +1627,7 @@ function desktop_environment_qtile() {
 }
 
 function desktop_environment_openbox() {
-    pacman_install "openbox obconf xterm xorg-server"
+    pacman_install "openbox xterm xorg-server"
 }
 
 function desktop_environment_leftwm() {
